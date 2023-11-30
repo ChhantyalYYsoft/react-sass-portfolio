@@ -1,9 +1,15 @@
 import React from 'react'
 import { images } from '../assets/img'
+import Header from './Header'
+import Footer from './Footer'
+import Banner from './Banner'
+import Layout from './Layout'
 
 function Hero() {
     return (
-        <section className="secti atvon1" id="hero">
+        <div>
+        <Layout>
+        <section className="section1" id="hero">
             <div className="hero">
                 <div className="left">
                     <div className="name">Hi, I am Kiran Gautam</div>
@@ -21,6 +27,9 @@ function Hero() {
                 </div>
             </div>
         </section>
+        <Banner/>
+        </Layout>
+        </div>
     )
 }
 

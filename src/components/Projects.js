@@ -1,8 +1,13 @@
 import React from 'react'
 import { images } from '../assets/img'
+import Header from './Header'
+import Layout from './Layout'
 
 function Projects() {
   return (
+    <div>
+
+<Layout>
     <section className="section4" id="projects">
         <h2 className="title">My Recent Works</h2>
         <div className="project-container">
@@ -89,6 +94,8 @@ function Projects() {
           </div>
         </div>
       </section>
+      </Layout>
+      </div>
   )
 }
 
